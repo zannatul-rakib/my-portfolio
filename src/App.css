@@ -64,6 +64,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--body-font);
   
   }
   
@@ -141,7 +142,7 @@
   
   .grid {
     display: grid;
-    gap: 1.5rem
+    gap: 1.5rem;
   }
   
   /*========== Buttons ==========*/
@@ -193,8 +194,6 @@
       padding: 2rem 0 4rem;
     }
   }
-  
-  @media screen and (max-width: 576px) {}
   
   /* For Small Device */
   @media screen and (max-width: 350px) {

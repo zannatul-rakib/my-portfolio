@@ -22,7 +22,7 @@ const Navbar = () => {
         </a>
 
         <div className={toggle ? "nav-menu show-menu" : "nav-menu"}>
-          <ul className="nav-list grid">
+          <ul className="nav-list">
             <li className="nav-item">
               <a
                 href="#home"
