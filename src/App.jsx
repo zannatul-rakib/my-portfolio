@@ -8,6 +8,7 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Services from './components/Services/Services';
 import Qualification from './components/Qualification/Qualification';
+import Projects from './components/Projects/Projects';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Skills/>
         <Services/>
         <Qualification/>
+        <Projects/>
       </main>
       <Footer />
     </>
