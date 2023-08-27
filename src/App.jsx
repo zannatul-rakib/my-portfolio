@@ -11,6 +11,7 @@ import Qualification from './components/Qualification/Qualification';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Testimonial from './components/Testimonial/Testimonial';
+import ScrollUp from './components/ScrollUp/ScrollUp';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Testimonial/>
         <Contact/>
       </main>
+      <ScrollUp/>
       <Footer />
     </>
   )
