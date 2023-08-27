@@ -10,6 +10,7 @@ import Services from './components/Services/Services';
 import Qualification from './components/Qualification/Qualification';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import Testimonial from './components/Testimonial/Testimonial';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Services/>
         <Qualification/>
         <Projects/>
+        <Testimonial/>
         <Contact/>
       </main>
       <Footer />
